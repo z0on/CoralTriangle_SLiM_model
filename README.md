@@ -14,7 +14,7 @@ To regenerate these files, use **step0_connMap_chooseData_writeEnvs_v4.R**
 
 The rest of R scripts recreate analyses and figires from the paper using raw results that can be downloaded from [here](https://www.dropbox.com/s/012vm9w327ul8hy/RawResults.zip?dl=0) (unzip them into a subdirectory named **RawResults** within the directory cloned from GitHub).
 
-SLiM model codes have extension **.slim**. There are many of them, for settings that cannot be supplied as external arguments. Here is the legend to their filename parts:
+[SLiM](https://messerlab.org/slim/) model codes (tested on SLiM v3.3.1) have extension **.slim**. There are many of them, for settings that cannot be supplied as external arguments. Here is the legend to their filename parts:
 
 * 85: RCP8.5
 * 45: RCP4.5
